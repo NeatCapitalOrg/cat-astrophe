@@ -2,7 +2,7 @@
 
 Create an app that will allow the user to browse through awesome cat pictures. People love pictures of cats, so this app will satisfy their desire to mindlessly waste the day away viewing cat pics. Think of it as a Facebook feed, but filled 100% with cats. 
 
-This is obviously a silly application, but it hits major areas that are required for modern web application development: project architecture, dependency management, sessions, state management, design, UX, APIs and time management.
+This is obviously a silly application, but it hits major areas that are required for modern web application development: project setup & architecture, dependency management, sessions, state management, design, UX, APIs and time management.
 
 
 ## HOW TO GET STARTED
@@ -56,7 +56,7 @@ There’s no backend for this project, just simulate how sessions would work on 
 
 ## USER DATA
 
-For simplicity, use the following user data. Just hardcode this data somewhere and do a simple username/password test:
+For simplicity, use the following data for a single user. Just hardcode this data somewhere and do a simple username/password test:
 
 ```javascript
 {
@@ -92,9 +92,12 @@ In addition to the feed, there should be a way to access a settings screen where
 
 The Cat API will return a random cat image. Docs here: https://thecatapi.com/
 
-- Use API key: cfd1ad99-38c0-4acf-917e-fab384dd5eda
+- Use API key: *cfd1ad99-38c0-4acf-917e-fab384dd5eda*
 - Integrate with the cat API to load images. 
 - It should grab images from The Cat API based on the size and type (gif or static) selected on the setup screen
-- The Cat API is a free service, so let’s respect them by rate limiting the requests to a maximum of 4 per second.
+- The Cat API is a free service, so let’s respect them by rate limiting the requests to a **maximum of 4 per second.**
 
 
+## QUESTIONS / COMMENTS / CONCERNS / ISSUES?
+
+If you need anything at all, just reach out. This is supposed to sort of simulate an actual work environment, and your work colleagues are there to help. So don't be bashful. 
